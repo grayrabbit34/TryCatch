@@ -19,6 +19,10 @@ public class Program
             {
                 Console.WriteLine("Geçersiz giriş! Lütfen bir sayı giriniz.");
             }
+            catch(Exception ex)
+            {
+                Console.WriteLine("Genel bir hata oluştu.");
+            }
             //finally bloğunu burada ihtiyaç olmadığı için kullanmadım
         }
     }
