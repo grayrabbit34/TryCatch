@@ -17,7 +17,7 @@ public class Program
 
             catch (FormatException ex)
             {
-                Console.WriteLine("Geçersiz giriş! Lütfen bir sayı giriniz.");
+                Console.Write("Geçersiz giriş!\nLütfen bir sayı giriniz: ");
             }
             catch(Exception ex)
             {
